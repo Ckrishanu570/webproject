@@ -10,7 +10,7 @@ body{
 }
 
 #topmostsection ul{
-    background-color:white;
+    background-color:rgb(27, 27, 27);
     list-style-type:none;
     text-align: center;
 }
@@ -120,7 +120,8 @@ body{
 }
 
 footer{
-    background-color:white;
+    background-color:rgb(27, 27, 27);
+    color:white;
 }
 
 footer img{
