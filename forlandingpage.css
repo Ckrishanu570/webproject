@@ -16,7 +16,7 @@ body{
 }
 
 #topmostsection li{
-    color:black;
+    color:white;
     display:inline;
     margin-inline:10px;
 }
@@ -122,8 +122,4 @@ body{
 footer{
     background-color:rgb(27, 27, 27);
     color:white;
-}
-
-footer img{
-    border-radius: 60%;
 }
