@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgba(0, 0, 0, 1);
+    color:white;
+}
+
+#topmostsection ul{
+    background-color:white;
+    list-style-type:none;
+    text-align: center;
+}
+
+#topmostsection li{
+    color:black;
+    display:inline;
+    margin-inline:10px;
+}
+
+.flex-header{
+    margin:6px;
+    background-color:black;
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.flex-header > #imamge,#link-1,#link-2,#contact{
+    background-color:black;
+    width:190px;
+    margin:20px;
+    height:133px;
+    text-align:center;
+    line-height:75px;
+    font-size:20px;
+}
+
+#link-1 a{
+    text-decoration: none;
+    color:white;
+}
+
+#link-2 a{
+    text-decoration: none;
+    color:white;
+}
+
+#contact a{
+    text-decoration: none;
+    color:white;
+}
+
+.flex-content1{
+    margin:6px;
+    background-color:black;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.flex-content1 > #content,#content-image{
+    background-color:black;
+    height:210;
+    width:210;
+    margin:5px;
+    padding:20px;
+    line-height:30px;
+    font-size:25px;
+}
+
+#content-image img{
+    border:solid 5px black;
+    border-radius: 20%;
+}
+
+.flex-content2{
+    margin:6px;
+    background-color:black;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.flex-content2 > #content2,#content-image2{
+    background-color:black;
+    height:210;
+    width:210;
+    margin:5px;
+    padding:10px;
+    line-height:30px;
+    font-size:25px;
+}
+
+#content-image2 img{
+    border:solid 5px black;
+    border-radius: 20%;
+}
+
+.flex-content3{
+    margin:6px;
+    background-color:black;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.flex-content3 > #content3,#content-image3{
+    background-color:black;
+    height:210;
+    width:210;
+    margin:5px;
+    padding:20px;
+    line-height:30px;
+    font-size:25px;
+}
+
+#content-image3 img{
+    border:solid 5px black;
+    border-radius: 20%;
+}
+
+footer{
+    background-color:white;
+}
+
+footer img{
+    border-radius: 60%;
+}

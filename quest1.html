@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Author" content="Krishanu Chatterjee">
+        <meta name="Description" content="A simple landing page for showcasing AR/VR product.">
+    </head>
+    <title>Oculus VR Headsets</title>
+    <link rel="icon" href="tabicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="forquest1.css">
+    <body>
+        <header>
+            <marquee>The website is currently under construction and in testing phase.....</marquee>
+            <div id="topmostsection">
+                <ul>
+                    <li>🚚Free worldwide delivery</li>
+                    <li>💲Worry-free trial</li>
+                    <li>🌟Warranty</li>
+                </ul>    
+            </div>
+            <div class="flex-header">
+                <div id="image"><img src="mainlogo.png" height="129" width="164" alt="Oculus (By Meta)" title="Oculus (By Meta)"></div>
+                <div id="link-1"><a href="index.html">Return to Home</a></div>
+                <div id="contact"><a href="contact.html">Contact us</a></div>
+            </div>
+        </header>
+        <div class="listing-flex">
+            <div id="product-image"><img src="productlisting.png" height="400" width="504" alt="Quest 1" title="Oculus Quest 1 (By Meta)"></div>
+            <div id="listing-title">
+                <h1>Oculus Quest 1</h1>
+                <br>
+                <p>(Get 2 controllers free and receive a 6-month trial to Oculus+ with the purchase) </p>
+                <br><br><br><br><br><br><br>
+                <button type="button" onclick="buying()" id="buyButton">Buy Now</button>
+            </div>
+        </div>
+        <div class="content-materialflex">
+            <div id="Specifications">
+                <h2>Specifications</h2>
+                <br>
+                <ul>
+                    <li>&rarr; Display: 2x 2064 x 2208p RGB-stripe LCD panels, one per eye, with a refresh rate of :  <br>72 Hz, 80 Hz, 90 Hz, or 120 Hz</li>
+                    <li>&rarr; Resolution: 2064 x 2208 pixels per eye</li>
+                    <li>&rarr; Field of view: 110 degrees horizontal and 96 degrees vertical</li>
+                    <li>&rarr; Optics: Pancake lens for a slimmer optic profile</li>
+                    <li>&rarr; Processor: Qualcomm Snapdragon XR2 Gen 2</li>
+                    <li>&rarr; RAM: 8 GB LPDDR5</li>
+                    <li>&rarr; Storage: 128 GB or 512 GB</li>
+                    <li>&rarr; Battery: Li-ion 3.87 VDC 4879 mAh</li>
+                    <li>&rarr; Cameras: 2x front-facing RGB cameras with pass-through</li>
+                    <li>&rarr; Connectivity: Wi-Fi 6E (802.11ax) and Bluetooth 5.2</li>
+                </ul>
+            </div>
+            <div id="Description">
+                <h2>Description</h2>
+                <br>
+                <p>The Oculus headset boasts a cutting-edge display system, featuring dual 2064 x 2208p resolution <br>
+                LCD panels – one for each eye. This translates to incredibly sharp visuals, bringing virtual worlds <br>
+                to life in stunning detail. With a refresh rate of up to 120Hz, users can experience smooth, fluid <br>
+                motion that minimizes blur and enhances overall realism. The powerful <br>
+                Qualcomm Snapdragon XR2 Gen 2 processor ensures the headset can handle even the most demanding <br>
+                VR applications. 8GB of LPDDR5 RAM keeps things running smoothly, while <br>
+                storage options of 128GB or 512GB provide ample space for games, apps, and other VR experiences. <br>
+                A long-lasting lithium-ion battery keeps you immersed in VR for extended periods, <br>
+                while integrated Wi-Fi 6E and Bluetooth 5.2 ensure a reliable and wireless connection.</p>
+            </div>
+        </div>
+        <footer>
+            <center><img src="tabicon.png" height="100" width="100"></center>
+            <p><center>&copy; Oculus (By Meta)</center></p>
+        </footer>
+    </body>
+    <script>
+        let buyButton = document.getElementById("buyButton");
+      
+        buyButton.addEventListener("click", function() {
+          alert("Bought successfully!");
+        });
+      </script>
+</html>
