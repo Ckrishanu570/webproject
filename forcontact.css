@@ -10,7 +10,7 @@ body{
 }
 
 #topmostsection ul{
-    background-color:white;
+    background-color:rgb(27, 27, 27);
     list-style-type:none;
     text-align: center;
 }
@@ -64,5 +64,5 @@ ul li a{
 
 footer{
     margin:10px;
-    background-color: white;
+    background-color: rgb(27, 27, 27);
 }
